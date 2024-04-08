@@ -1,0 +1,43 @@
+body{
+    background-color: #000000;
+    color: black;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header, h1{
+font-family: cursive;
+padding: 10px;
+}
+form{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(252, 25, 63, 0.1);
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+input[type=text], input[type=email],  textarea{
+    width: 70%;
+    padding: 5px 20px;
+    margin: 5px;
+    background-color: rgb(182, 235, 216);
+}
+select, input[type=number]{
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgb(182, 235, 216);
+
+}
+input[type=submit],input[type=reset]{
+    background-color: rgb(43, 137, 34);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    border-radius: 7px;
+}
+label{
+    font-weight: 900;
+}
